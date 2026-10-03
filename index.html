@@ -503,40 +503,102 @@
 
         @media (max-width: 600px) {
 
-            .letter-page {
+        @media (max-width: 600px) {
 
-                padding-top: 70px;
-            }
+    /* 전체 페이지 */
+    .letter-page {
+        width: 100%;
+        padding: 55px 16px 100px;
+    }
 
+    /* 제목 */
+    .title {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
-            .title h1 {
+    .title h1 {
+        font-size: 27px;
+        letter-spacing: -1.5px;
+        line-height: 1.4;
+    }
 
-                font-size: 32px;
+    .title p {
+        margin-top: 10px;
+        font-size: 13px;
+    }
 
-                letter-spacing: -1.5px;
-            }
+    /* 생일 하트 이미지 */
+    .birthday-heart {
+        width: 150px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 
+    .birthday-heart img {
+        width: 100%;
+        display: block;
+    }
 
-            .letter {
+    /* 편지 */
+    .letter {
+        width: 100%;
+        max-width: none;
+        margin-top: 10px;
+        padding: 30px 22px;
+        border-radius: 24px;
+    }
 
-                padding:
-                    35px 24px;
-            }
+    .letter-title {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
 
+    .letter p {
+        font-size: 14px;
+        line-height: 2;
+        margin-bottom: 22px;
+    }
 
-            .letter p {
+    .letter .last {
+        font-size: 16px;
+    }
 
-                font-size: 14px;
+    /* 오른쪽 생일 캐릭터 */
+    .side-character-right {
+        position: relative;
+        top: auto;
+        left: auto;
 
-                line-height: 2;
-            }
+        width: 85%;
+        max-width: 350px;
 
+        margin: 60px auto 0;
 
-            .open-button {
+        order: 10;
+    }
 
-                padding:
-                    16px 30px;
-            }
+    .side-character-right img {
+        width: 100%;
+        display: block;
+    }
+
+    /* 왼쪽 캐릭터는 모바일에서 숨김 */
+    .side-character-left {
+        display: none;
+    }
+
+    /* 버튼 */
+    .open-button {
+        padding: 15px 28px;
+        font-size: 14px;
+    }
+     .opening {
+        height: 100dvh;
+        background-size: cover;
+        background-position: center top;
+    }
+}
         }
 .background-heart {
     position: fixed;
